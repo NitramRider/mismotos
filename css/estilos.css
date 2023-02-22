@@ -1,0 +1,43 @@
+/* regla para usar una font descargada */
+@font-face {
+	font-family: 'topgun';
+	src: url('../font/topgun.ttf');
+}
+
+/*HEADER*/
+header {
+    position: sticky;
+    top: 0px;
+    background-color: #AAFF72;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    font-family: topgun;
+}
+header .navbar {
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 10px;
+    background-color: #000000;
+    width: 100%; 
+}
+header .navbar div .navbar-collapse {
+    flex-direction: row-reverse; 
+}
+/* logo */
+header nav div a img {
+    height: 80px;
+    width: 80px;
+    float: left; 
+}
+/* hover del navbar */
+.nav-item:hover {
+    background: #16cf26;
+}
+
+H1 {
+    height: auto;
+    align-items: center; 
+    color: #ffffff;
+}
