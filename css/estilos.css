@@ -12,6 +12,19 @@ header, footer  {
     background: #3ead47;
 }
 
+.navbar-toggler {
+	align-items:end;
+}
+
+.navbar-brand {
+    color: #3ead47;
+}
+
+.navbar-nav .nav-link.active {
+	color: #dbdedc;
+}
+
+
 main {
     background-color: black;
     font-family: "Audiowide", sans-serif;
@@ -30,7 +43,7 @@ main {
 
 .parallax div {
 	position: relative;
-	top: 75px;
+	top: 0%;
 	background-color:  rgba(255, 255, 255, 0.7);
 	padding: 20px;
 	text-align: center;
@@ -41,27 +54,14 @@ main {
 	color: black;
 }
 
-/* seccion motos */
-.motos div{
-	padding: 20px;
-	text-align: center;
-    color: beige;
-}
-
-.motos img{
-	width: 100%;
-}
-
-
-
 .container-fluid {
     background-color: black;
 }
 
-.navbar-brand {
-    color: aliceblue;
+.index-motos, p {
+	color: beige;
 }
 
-navbarSupportedContent {
-    width:max-content;
+h2 {
+	color: #3ead47;
 }
